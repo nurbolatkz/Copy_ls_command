@@ -54,5 +54,7 @@ char** sort_timedirs(char** dirname, int size);
 [sort_timedirs(char** dirname, int size)](https://github.com/nurbolatkz/Copy_ls_command/blob/main/sorts.c) -  sort filenames in subdirectories. Find path to file then get last modified time. When user entered other directories from current.
 
 ##### MAKE FILE
-To See how program works in [MAKEFILE](https://github.com/nurbolatkz/Copy_ls_command/blob/main/makefile)
+To see how program works read [MAKEFILE](https://github.com/nurbolatkz/Copy_ls_command/blob/main/makefile)
+
+### If you have any suggestions you are welcome :)
 
