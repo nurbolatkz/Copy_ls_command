@@ -24,7 +24,7 @@ And ls -at command to list files or directories including hidden files or direct
 
 ## Ls function and helper other function 
 ```
-[void my_ls(char** dirname, int indx, optn* flags_ls)](https://github.com/nurbolatkz/Copy_ls_command/blob/main/mylsfunc.c)- /* main ls function */
+void my_ls(char** dirname, int indx, optn* flags_ls)(https://github.com/nurbolatkz/Copy_ls_command/blob/main/mylsfunc.c)- /* main ls function */
 
 [void read_Dir(char* dir, optn* flags) ; ](https://github.com/nurbolatkz/Copy_ls_command/blob/main/readdir.c) - /* read given a directory by flags */
 
@@ -40,4 +40,17 @@ And ls -at command to list files or directories including hidden files or direct
 
 
 ```
+void my_ls(char** dirname, int indx, optn* flags_ls)(https://github.com/nurbolatkz/Copy_ls_command/blob/main/mylsfunc.c)- /* main ls function */
+
+[void read_Dir(char* dir, optn* flags) ; ](https://github.com/nurbolatkz/Copy_ls_command/blob/main/readdir.c) - /* read given a directory by flags */
+
+[void display_list(char** filenames, int size);](https://github.com/nurbolatkz/Copy_ls_command/blob/main/display.c) - /*print all sorted files by flags */
+
+[char** sort_lex(char** my_arr, int size);](https://github.com/nurbolatkz/Copy_ls_command/blob/main/sorts.c) -  /* sort file names list in lexicographical order */
+
+[char** sort_time(char** my_arr, int size, char* dirname);](https://github.com/nurbolatkz/Copy_ls_command/blob/main/sorts.c) - /* list files and dirs sort by last modified time */ 
+
+[void my_swap(char** a, char** b);](https://github.com/nurbolatkz/Copy_ls_command/blob/main/stringfun.c) -   / * swap filenames in array  */
+
+[char** sort_timedirs(char** dirname, int size);](https://github.com/nurbolatkz/Copy_ls_command/blob/main/sorts.c) -  /* sort filenames in subdirectories. Find path to file then get last modified time. When user entered other directories from current. */
 
