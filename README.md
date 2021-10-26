@@ -38,7 +38,7 @@ void my_swap(char** a, char** b);
 
 char** sort_timedirs(char** dirname, int size);
 ```
-
+### Explanation when these function used
 [ my_ls(char** dirname, int indx, optn* flags_ls](https://github.com/nurbolatkz/Copy_ls_command/blob/main/mylsfunc.c)  - main ls function 
 
 [read_Dir(char* dir, optn* flags)](https://github.com/nurbolatkz/Copy_ls_command/blob/main/readdir.c) -  read given a directory by flags 
@@ -52,4 +52,7 @@ char** sort_timedirs(char** dirname, int size);
 [my_swap(char** a, char** b)](https://github.com/nurbolatkz/Copy_ls_command/blob/main/stringfun.c) -   swap filenames in array
 
 [sort_timedirs(char** dirname, int size)](https://github.com/nurbolatkz/Copy_ls_command/blob/main/sorts.c) -  sort filenames in subdirectories. Find path to file then get last modified time. When user entered other directories from current.
+
+##### MAKE FILE
+To See how program works in [MAKEFILE](https://github.com/nurbolatkz/Copy_ls_command/blob/main/makefile)
 
